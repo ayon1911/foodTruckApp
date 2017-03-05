@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7002DAC1E4202FB00258FE0 /* AddTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7002DAB1E4202FB00258FE0 /* AddTruckVC.swift */; };
+		E7002DAE1E421FA900258FE0 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7002DAD1E421FA900258FE0 /* DetailsVC.swift */; };
+		E7002DB01E422C7700258FE0 /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7002DAF1E422C7700258FE0 /* ReviewsVC.swift */; };
+		E7002DB21E422E9600258FE0 /* AddReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7002DB11E422E9600258FE0 /* AddReviewVC.swift */; };
+		E7002DB41E423AC600258FE0 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7002DB31E423AC600258FE0 /* ReviewCell.swift */; };
 		E746D9201E336892007ECA00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746D91F1E336892007ECA00 /* AppDelegate.swift */; };
-		E746D9221E336892007ECA00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746D9211E336892007ECA00 /* ViewController.swift */; };
 		E746D9251E336892007ECA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E746D9231E336892007ECA00 /* Main.storyboard */; };
 		E746D9271E336892007ECA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E746D9261E336892007ECA00 /* Assets.xcassets */; };
 		E746D92A1E336892007ECA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E746D9281E336892007ECA00 /* LaunchScreen.storyboard */; };
 		E746D9351E336892007ECA00 /* api_client_iphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746D9341E336892007ECA00 /* api_client_iphoneTests.swift */; };
+		E746D9451E336B86007ECA00 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746D9441E336B86007ECA00 /* MainVC.swift */; };
+		E746D9471E336BD4007ECA00 /* foodtruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746D9461E336BD4007ECA00 /* foodtruck.swift */; };
+		E74CFFDD1E38CD7900DF90F1 /* FoodTruckReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74CFFDC1E38CD7900DF90F1 /* FoodTruckReview.swift */; };
+		E74CFFDF1E38D58800DF90F1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74CFFDE1E38D58800DF90F1 /* DataService.swift */; };
+		E74CFFE11E38D71100DF90F1 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74CFFE01E38D71100DF90F1 /* Constans.swift */; };
+		E7E6A1011E40B67900B8B9AD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E6A1001E40B67900B8B9AD /* AuthService.swift */; };
+		E7E6A1031E40DC7500B8B9AD /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E6A1021E40DC7500B8B9AD /* FoodTruckCell.swift */; };
+		E7F28D891E41D76E003E1771 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F28D871E41D76E003E1771 /* LogInVC.swift */; };
+		E7F28D8A1E41D76E003E1771 /* LogInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F28D881E41D76E003E1771 /* LogInVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7002DAB1E4202FB00258FE0 /* AddTruckVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTruckVC.swift; sourceTree = "<group>"; };
+		E7002DAD1E421FA900258FE0 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		E7002DAF1E422C7700258FE0 /* ReviewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		E7002DB11E422E9600258FE0 /* AddReviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReviewVC.swift; sourceTree = "<group>"; };
+		E7002DB31E423AC600258FE0 /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		E746D91C1E336892007ECA00 /* api-client-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "api-client-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E746D91F1E336892007ECA00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E746D9211E336892007ECA00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E746D9241E336892007ECA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E746D9261E336892007ECA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E746D9291E336892007ECA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +53,15 @@
 		E746D9301E336892007ECA00 /* api-client-iphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "api-client-iphoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E746D9341E336892007ECA00 /* api_client_iphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api_client_iphoneTests.swift; sourceTree = "<group>"; };
 		E746D9361E336892007ECA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E746D9441E336B86007ECA00 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E746D9461E336BD4007ECA00 /* foodtruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodtruck.swift; sourceTree = "<group>"; };
+		E74CFFDC1E38CD7900DF90F1 /* FoodTruckReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckReview.swift; sourceTree = "<group>"; };
+		E74CFFDE1E38D58800DF90F1 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E74CFFE01E38D71100DF90F1 /* Constans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		E7E6A1001E40B67900B8B9AD /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E7E6A1021E40DC7500B8B9AD /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
+		E7F28D871E41D76E003E1771 /* LogInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		E7F28D881E41D76E003E1771 /* LogInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +103,11 @@
 		E746D91E1E336892007ECA00 /* api-client-iphone */ = {
 			isa = PBXGroup;
 			children = (
-				E746D91F1E336892007ECA00 /* AppDelegate.swift */,
-				E746D9211E336892007ECA00 /* ViewController.swift */,
-				E746D9231E336892007ECA00 /* Main.storyboard */,
-				E746D9261E336892007ECA00 /* Assets.xcassets */,
-				E746D9281E336892007ECA00 /* LaunchScreen.storyboard */,
-				E746D92B1E336892007ECA00 /* Info.plist */,
+				E746D9411E336ACB007ECA00 /* Model */,
+				E746D9421E336AD1007ECA00 /* View */,
+				E746D9431E336AD7007ECA00 /* Contoller */,
+				E746D9401E336ABC007ECA00 /* Resources */,
+				E746D93F1E336AB4007ECA00 /* Services */,
 			);
 			path = "api-client-iphone";
 			sourceTree = "<group>";
@@ -94,6 +119,60 @@
 				E746D9361E336892007ECA00 /* Info.plist */,
 			);
 			path = "api-client-iphoneTests";
+			sourceTree = "<group>";
+		};
+		E746D93F1E336AB4007ECA00 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E74CFFDE1E38D58800DF90F1 /* DataService.swift */,
+				E7E6A1001E40B67900B8B9AD /* AuthService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		E746D9401E336ABC007ECA00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E74CFFE01E38D71100DF90F1 /* Constans.swift */,
+				E746D92B1E336892007ECA00 /* Info.plist */,
+				E746D9261E336892007ECA00 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E746D9411E336ACB007ECA00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E746D9461E336BD4007ECA00 /* foodtruck.swift */,
+				E74CFFDC1E38CD7900DF90F1 /* FoodTruckReview.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E746D9421E336AD1007ECA00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7E6A1021E40DC7500B8B9AD /* FoodTruckCell.swift */,
+				E746D9231E336892007ECA00 /* Main.storyboard */,
+				E746D9281E336892007ECA00 /* LaunchScreen.storyboard */,
+				E7F28D881E41D76E003E1771 /* LogInVC.xib */,
+				E7002DB31E423AC600258FE0 /* ReviewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E746D9431E336AD7007ECA00 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				E7F28D871E41D76E003E1771 /* LogInVC.swift */,
+				E746D91F1E336892007ECA00 /* AppDelegate.swift */,
+				E746D9441E336B86007ECA00 /* MainVC.swift */,
+				E7002DAB1E4202FB00258FE0 /* AddTruckVC.swift */,
+				E7002DAD1E421FA900258FE0 /* DetailsVC.swift */,
+				E7002DAF1E422C7700258FE0 /* ReviewsVC.swift */,
+				E7002DB11E422E9600258FE0 /* AddReviewVC.swift */,
+			);
+			name = Contoller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +225,7 @@
 				TargetAttributes = {
 					E746D91B1E336892007ECA00 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UHJSHJ73VS;
 						ProvisioningStyle = Automatic;
 					};
 					E746D92F1E336892007ECA00 = {
@@ -181,6 +261,7 @@
 			files = (
 				E746D92A1E336892007ECA00 /* LaunchScreen.storyboard in Resources */,
 				E746D9271E336892007ECA00 /* Assets.xcassets in Resources */,
+				E7F28D8A1E41D76E003E1771 /* LogInVC.xib in Resources */,
 				E746D9251E336892007ECA00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,8 +280,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E746D9221E336892007ECA00 /* ViewController.swift in Sources */,
+				E7002DB21E422E9600258FE0 /* AddReviewVC.swift in Sources */,
+				E746D9471E336BD4007ECA00 /* foodtruck.swift in Sources */,
 				E746D9201E336892007ECA00 /* AppDelegate.swift in Sources */,
+				E74CFFE11E38D71100DF90F1 /* Constans.swift in Sources */,
+				E746D9451E336B86007ECA00 /* MainVC.swift in Sources */,
+				E74CFFDD1E38CD7900DF90F1 /* FoodTruckReview.swift in Sources */,
+				E74CFFDF1E38D58800DF90F1 /* DataService.swift in Sources */,
+				E7002DAC1E4202FB00258FE0 /* AddTruckVC.swift in Sources */,
+				E7E6A1011E40B67900B8B9AD /* AuthService.swift in Sources */,
+				E7002DB01E422C7700258FE0 /* ReviewsVC.swift in Sources */,
+				E7E6A1031E40DC7500B8B9AD /* FoodTruckCell.swift in Sources */,
+				E7F28D891E41D76E003E1771 /* LogInVC.swift in Sources */,
+				E7002DAE1E421FA900258FE0 /* DetailsVC.swift in Sources */,
+				E7002DB41E423AC600258FE0 /* ReviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHJSHJ73VS;
 				INFOPLIST_FILE = "api-client-iphone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.none.api-client-iphone";
@@ -349,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHJSHJ73VS;
 				INFOPLIST_FILE = "api-client-iphone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.none.api-client-iphone";
@@ -404,6 +499,7 @@
 				E746D93B1E336892007ECA00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E746D93C1E336892007ECA00 /* Build configuration list for PBXNativeTarget "api-client-iphoneTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +508,7 @@
 				E746D93E1E336892007ECA00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
